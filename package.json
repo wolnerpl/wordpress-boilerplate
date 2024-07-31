@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "csscomb": "^4.3.0",
+    "del": "^7.1.0",
+    "gulp": "^5.0.0",
+    "gulp-copy": "^4.0.1",
+    "gulp-shell": "^0.8.0"
+  },
+  "type": "module"
+}

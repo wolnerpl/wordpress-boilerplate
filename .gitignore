@@ -1,0 +1,73 @@
+# Ignoring WordPress core files
+/index.php
+/wp-blog-header.php
+/wp-comments-post.php
+/wp-config.php
+/wp-cron.php
+/wp-links-opml.php
+/wp-load.php
+/wp-login.php
+/wp-mail.php
+/wp-settings.php
+/wp-signup.php
+/wp-trackback.php
+/xmlrpc.php
+/wp-config-sample.php
+/wp-activate.php
+/readme.html
+/license.txt
+/wp-content/index.php
+
+# Ignoring WordPress core directories
+wp-admin/
+wp-includes/
+
+# Ignoring WordPress core directories
+/wp-content/uploads/
+/wp-content/cache/
+/wp-content/backups/
+/wp-content/upgrade/
+/wp-content/languages/plugins/
+/wp-content/languages/themes/
+/wp-content/advanced-cache.php
+/wp-content/maintenance.php
+wp-config.php
+sitemap.xml
+sitemap.xml.gz
+
+# Ignoring plugin files and directories
+wp-content/plugins/*
+# !wp-content/plugins/akismet/
+
+# Ignoring theme files and directories
+wp-content/themes/*
+!wp-content/themes/wordpress-boilerplate-theme/
+
+# Ignoring theme parts dist assets
+wp-content/themes/*/parts/*/script.min.js
+wp-content/themes/*/parts/*/style.min.css
+wp-content/themes/*/parts/blocks/*/script.min.js
+wp-content/themes/*/parts/blocks/*/style.min.css
+
+# Ignoring system files
+.DS_Store
+Thumbs.db
+
+# Ignoring temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+*.swn
+
+# Ignoring built files
+node_modules/
+vendor/
+
+# Ignoring cache files
+.cache/
+*.cache
+
+# Ignoring IDE files
+.idea
+.vscode

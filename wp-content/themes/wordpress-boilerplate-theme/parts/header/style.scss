@@ -1,0 +1,32 @@
+@import '../../assets/scss/base/reboot';
+.header {
+    margin-bottom: 20px;
+    padding: 20px 0;
+
+    &__container {
+        display: flex;
+
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__nav-menu {
+        @include ul-reset();
+
+        display: flex;
+    }
+
+    &__nav-item {
+        margin: 0 10px;
+    }
+
+    &__nav-link {
+        text-decoration: none;
+    }
+}
+
+@include color-mode(dark) {
+    .header {
+        background: $gray-700;
+    }
+}

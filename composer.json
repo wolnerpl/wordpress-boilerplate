@@ -1,0 +1,23 @@
+{
+  "name": "wolnerpl/wordpress-boilerplate",
+  "require": {
+    "johnpbloch/wordpress": "^6.6.1",
+    "yoast/wordpress-seo": "^23.1",
+    "darylldoyle/safe-svg": "^2.2.5"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    }
+  ],
+  "extra": {
+    "wordpress-install-dir": "wp"
+  },
+  "config": {
+    "allow-plugins": {
+      "composer/installers": true,
+      "johnpbloch/wordpress-core-installer": true
+    }
+  }
+}

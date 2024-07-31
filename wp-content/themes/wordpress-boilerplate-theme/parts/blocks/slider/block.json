@@ -1,0 +1,19 @@
+{
+  "name": "wordpress-boilerplate-theme/slider",
+  "title": "Slider",
+  "description": "The Slider lets you easily create stunning, responsive slideshow for showcasing images and content.",
+  "category": "this",
+  "icon": "slides",
+  "keywords": ["slider", "block"],
+  "supports": {
+    "align": true,
+    "alignWide": true,
+    "html": false
+  },
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "slider.php"
+  },
+  "script": ["swiper", "file:./script.min.js"],
+  "style": ["swiper", "file:./style.min.css"]
+}
